@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    tools:context=".MainActivity">
+        <LinearLayout
+            android:id="@+id/p1"
+            android:visibility="visible"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+            <TextView
+                android:id="@+id/productname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Product Name"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:id="@+id/item_count_text_display"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="1"
+                android:gravity="center"
+                android:textSize="40sp"
+                android:textColor="@color/black"
+                android:layout_marginStart="20dp"
+
+                />
+
+            <TextView
+                android:id="@+id/increase_count"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="+"
+                android:gravity="center"
+                android:textSize="40sp"
+                android:textColor="@color/black"
+                android:layout_marginStart="20dp"
+
+                />
+            <TextView
+                android:id="@+id/decrease_count"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="--"
+                android:gravity="center"
+                android:textSize="40sp"
+                android:textColor="@color/black"
+                android:layout_marginStart="20dp"
+                android:visibility="visible"
+
+                />
+
+
+        </LinearLayout>
+    <LinearLayout
+        android:id="@+id/p2"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+        <TextView
+            android:id="@+id/productname2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Product Name"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:id="@+id/item_count2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="1"
+            android:gravity="center"
+            android:textSize="40sp"
+            android:textColor="@color/black"
+            android:layout_marginStart="20dp"
+
+            />
+
+        <TextView
+            android:id="@+id/increase_count2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="+"
+            android:gravity="center"
+            android:textSize="40sp"
+            android:textColor="@color/black"
+            android:layout_marginStart="20dp"
+
+            />
+        <TextView
+            android:id="@+id/decrease_count2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="--"
+            android:gravity="center"
+            android:textSize="40sp"
+            android:textColor="@color/black"
+            android:layout_marginStart="20dp"
+
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:id="@+id/p3"
+        android:visibility="gone"
+        >
+        <TextView
+            android:id="@+id/productname3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Product Name"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:id="@+id/item_count3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="1"
+            android:gravity="center"
+            android:textSize="40sp"
+            android:textColor="@color/black"
+            android:layout_marginStart="20dp"
+
+            />
+
+        <TextView
+            android:id="@+id/increase_count3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="+"
+            android:gravity="center"
+            android:textSize="40sp"
+            android:textColor="@color/black"
+            android:layout_marginStart="20dp"
+
+            />
+        <TextView
+            android:id="@+id/decrease_count3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="--"
+            android:gravity="center"
+            android:textSize="40sp"
+            android:textColor="@color/black"
+            android:layout_marginStart="20dp"
+
+            />
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/total_amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Amount : "
+        android:layout_margin="20dp"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        />
+
+
+
+
+</LinearLayout>
