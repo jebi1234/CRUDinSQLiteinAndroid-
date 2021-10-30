@@ -1,9 +1,9 @@
-# CRUDinSQLiteinAndroid-
+* CRUDinSQLiteinAndroid-
 # Download or clone repo 
 # Run App that's it
 # This a sample product add in cart sqlite
 # adding product and increment and decrement 
-#Operaions like create table in sqlite 
+# Operaions like create table in sqlite 
 # create Table
 # Insert values 
 # update values
