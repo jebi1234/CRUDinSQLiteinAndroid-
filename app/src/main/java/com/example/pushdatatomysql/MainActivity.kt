@@ -57,7 +57,7 @@ class MainActivity : AppCompatActivity() {
         val DiscountPrice = findViewById<EditText>(R.id.disjoint_edittext)
 
         var discount = "null"
-        var Discount = 0.05
+        var Discount = 0.1
 
         val res: Cursor? = myDb!!.getAllData()
         var TOtalAmount:Int =0
